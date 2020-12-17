@@ -39,7 +39,7 @@ namespace CS_ASP_019LPB
             {
                 a = int.Parse(heightTextBox.Text);
                 b = ((int)double.Parse(widthTextBox.Text) / 2);
-                c = int.Parse(widthTextBox.Text);
+                c = int.Parse(lengthTextBox.Text);
                 answer = a * b * c / 3;
                 answerLabel.Content = answer.ToString();
 
